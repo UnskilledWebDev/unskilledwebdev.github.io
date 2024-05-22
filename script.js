@@ -2,12 +2,13 @@ var bgColIn = document.getElementById("bgColor");
 var txtColIn = document.getElementById("txtColor");
 var bgColBtn = document.getElementById("bgColBtn")
 var txtColBtn = document.getElementById("txtColBtn");
+var bodyElmt = document.getElementsByTagName("body");
 
 var bgBtnFunc = function() {
-    console.log(bgColIn.value);
+    bodyElmt.style.backgroundColor = bgColIn.value;
 };
 var txtBtnFunc = function() {
-    console.log(txtColIn.value);
+    bodyElmt.style.color = txtColIn.value;
 }
 
 bgColBtn.addEventListener("click", bgBtnFunc);
