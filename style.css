@@ -4,6 +4,7 @@ body {
 }
 .pageDiv {
     width: 480px;
+    text-align: center;
     margin-left: auto;
     margin-right: auto;
 }
