@@ -2,7 +2,7 @@ var bgColIn = document.getElementById("bgColor");
 var txtColIn = document.getElementById("txtColor");
 var bgColBtn = document.getElementById("bgColBtn")
 var txtColBtn = document.getElementById("txtColBtn");
-var bodyElmt = document.getElementsByTagName("body");
+var bodyElmt = document.getElementByTagName("body");
 
 var bgBtnFunc = function() {
     bodyElmt.style.backgroundColor = bgColIn.value;
