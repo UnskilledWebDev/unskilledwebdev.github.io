@@ -4,6 +4,12 @@ body {
     background-color: rgb(0, 120, 255);
     color: white;
 }
+a:link {
+    color: orange;
+}
+a:visited {
+    color: crimson;
+}
 .pageDiv {
     width: 480px;
     margin-left: auto;
