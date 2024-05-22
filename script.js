@@ -2,13 +2,13 @@ var bgColIn = document.getElementById("bgColor");
 var txtColIn = document.getElementById("txtColor");
 var bgColBtn = document.getElementById("bgColBtn")
 var txtColBtn = document.getElementById("txtColBtn");
-var bodyElmt = document.getElementByTag("body");
+var bodyElmt = document.getElementsByTagName("body");
 
 var bgBtnFunc = function() {
-    bodyElmt.style.backgroundColor = bgColIn.value;
+    bodyElmt[0].style.backgroundColor = bgColIn.value;
 };
 var txtBtnFunc = function() {
-    bodyElmt.style.color = txtColIn.value;
+    bodyElmt[0].style.color = txtColIn.value;
 }
 
 bgColBtn.addEventListener("click", bgBtnFunc);
