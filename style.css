@@ -2,7 +2,7 @@ body {
     text-align: center;
     font-family: 'Comic Sans MS', cursive;
     background-color: rgb(0, 120, 255);
-    color: white;
+    color: #ffffff;
 }
 .pageDiv {
     width: 480px;
